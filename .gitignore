@@ -1,0 +1,61 @@
+# --------------------------
+# DO NOT SAVE home dir folders
+# --------------------------
+general/
+.pki/
+.ssh/
+.vim/
+
+# --------------------------
+# DO NOT SAVE home dir files
+# --------------------------
+.bash_history
+.bash_logout
+.git-credentials
+.gitconfig
+.ICEauthority
+.lesshst
+.netrc
+.rnd
+.viminfo
+.Xauthority
+.xsession-errors
+
+# --------------------------
+# DO NOT SAVE data folders
+# --------------------------
+PunicStudy*/
+
+# --------------------------
+# DO NOT SAVE rpm files
+# --------------------------
+*.rpm*
+
+# --------------------------
+# DO NOT SAVE R files
+# --------------------------
+R/x86_64-redhat-linux-gnu-library/3.4/
+.RData
+.Rhistory
+
+# --------------------------
+# DO NOT SAVE scala files
+# --------------------------
+.scala_history
+
+# --------------------------
+# DO NOT save swp files
+# --------------------------
+*.swp
+
+# --------------------------
+# DO NOT SAVE stormminer zip files - These are the various sw versions that can be installed
+# --------------------------
+stormminer/STORMMiner_v*.zip
+stormminer/Punic21-example.zip
+stormminer/v*/STORMMiner_v*.zip
+
+# --------------------------
+# DO NOT SAVE STORMMiner dir - This is where the STORMMiner sw is installed
+# --------------------------
+STORMMiner/
